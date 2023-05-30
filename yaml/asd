@@ -1,0 +1,13 @@
+    cannot create ClusterRole/linkerd-linkerd-identity: clusterroles.rbac.authorization.k8s.io "linkerd-linkerd-identity" already exists
+    cannot create ClusterRoleBinding/linkerd-linkerd-identity: clusterrolebindings.rbac.authorization.k8s.io "linkerd-linkerd-identity" already exists
+    cannot create ClusterRole/linkerd-linkerd-destination: clusterroles.rbac.authorization.k8s.io "linkerd-linkerd-destination" already exists
+    cannot create ClusterRoleBinding/linkerd-linkerd-destination: clusterrolebindings.rbac.authorization.k8s.io "linkerd-linkerd-destination" already exists
+    cannot create ValidatingWebhookConfiguration/linkerd-sp-validator-webhook-config: validatingwebhookconfigurations.admissionregistration.k8s.io "linkerd-sp-validator-webhook-config" already exists
+    cannot create ValidatingWebhookConfiguration/linkerd-policy-validator-webhook-config: validatingwebhookconfigurations.admissionregistration.k8s.io "linkerd-policy-validator-webhook-config" already exists
+    cannot create ClusterRole/linkerd-policy: clusterroles.rbac.authorization.k8s.io "linkerd-policy" already exists
+    cannot create ClusterRoleBinding/linkerd-destination-policy: clusterrolebindings.rbac.authorization.k8s.io "linkerd-destination-policy" already exists
+    cannot create ClusterRole/linkerd-heartbeat: clusterroles.rbac.authorization.k8s.io "linkerd-heartbeat" already exists
+    cannot create ClusterRoleBinding/linkerd-heartbeat: clusterrolebindings.rbac.authorization.k8s.io "linkerd-heartbeat" already exists
+    cannot create ClusterRole/linkerd-linkerd-proxy-injector: clusterroles.rbac.authorization.k8s.io "linkerd-linkerd-proxy-injector" already exists
+    cannot create ClusterRoleBinding/linkerd-linkerd-proxy-injector: clusterrolebindings.rbac.authorization.k8s.io "linkerd-linkerd-proxy-injector" already exists
+    cannot create MutatingWebhookConfiguration/linkerd-proxy-injector-webhook-config: mutatingwebhookconfigurations.admissionregistration.k8s.io "linkerd-proxy-injector-webhook-config" already exists
